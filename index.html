@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Monolith Loading Screen</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="jquery.monolith-slideshow.js"></script>
+		<link rel="stylesheet" href="monolith-slideshow.css">
+		<style>
+			.static-content {
+				padding: 20px;
+			}
+			h1 {
+				font-family: sans-serif;
+				margin: 0;
+				position: absolute;
+				bottom: 60px;
+				text-align: left;
+				color: white;
+				width: 60%;
+				text-shadow: 0 2px 4px rgba(0,0,0,.4);
+				background-color: rgba(0, 0, 0, 0.24);
+			}
+			.logo {
+				width: 100%;
+				max-width: 400px;
+				height: auto;
+				top: 77%;
+				z-index: 1000;
+				position: absolute;
+				opacity: 0.9;
+				padding: 17px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="center"><img class="logo" src="https://monolithservers.com/forums/styles/xenith/images/logo.png" alt=""></div>
+		<div id="slides">
+		</div>
+	</body>
+	<script src="monolith-loading.js"></script>
+</html>
+
